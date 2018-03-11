@@ -27,3 +27,16 @@ hr{
     border-top: 3px solid green;
     border-bottom: 3px solid rgba(0,0,0,1);
 }
+
+.Origin-pop-up img {
+    display: none;
+    max-height:250px;
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.fade-in {
+    display: block;
+    transition: opacity 3s ease-in;
+ }
