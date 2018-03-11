@@ -1,7 +1,15 @@
-$('.Origins').click(function(){
-    console.log("inside click show");
-    $('.Origin-pop-up img').show();
-    // $('.Origins').hide(0);
+let $btn = document.getElementById("Food");
+let toggled = false;
+
+$btn.addEventListener("click", () => {
+  console.log("inside click");
+    let $img = document.getElementsByClassName("Food-pop-up")[0];
+if (toggled) {
+    $img.className = "Food-pop-up";
+} else {
+    $img.className += " fade-in";
+}
+toggled = !toggled;
 });
 
 // (function() {
